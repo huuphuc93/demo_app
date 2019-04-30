@@ -1,5 +1,13 @@
+Cách chạy app:
+
+B1: Config:
+ - Trong file config/application.rb điền gmail, password tại user_name, password
+ - Cài đặt cho phép ứng dụng kém an toàn truy cập vào gmail của bạn
+
+B2: Chạy lệnh rails db:create -> rails db:migrate:reset -> rails db:seed
+
 Các khái cơ bản trong rails:
-Chương 3 -5:
+Chương 3 - 5:
 
 - Macro (generate, rake)
 - Partial
